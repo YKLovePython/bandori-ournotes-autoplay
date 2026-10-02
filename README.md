@@ -159,9 +159,22 @@ Read [docs/how-it-works.md](docs/how-it-works.md) for the longer version.
 
 ---
 
+## Author & community
+
+* **作业快没了** on Bilibili — [welcome post / 交流贴](https://www.bilibili.com/opus/1254695612358590482)
+* Questions about the script or the program? **QQ group: 933148159**
+
+  > 从 github 来的朋友们，你们好
+  > 对于我写的脚本和程序等等有疑问的
+  > 可以加群讨论
+  > Q群：933148159
+
+* **Timestamp proof** (Bitcoin + RFC 3161 + commit history): see [`proof/`](proof/README.md).
+  The source itself stays private; the sealed archive's hash is publicly timestamped, so
+  priority can be checked by anyone without publishing the code.
+
 ## Credits
 
-* Created by **作业快没了** on Bilibili.
 * The chart data pipeline builds on community projects (nnnotes, our‑notes‑chartdb,
   ournotes‑player, haneoka). Thanks to everyone who documented the file formats in public.
 * Touch injection follows the approach used by `phisap` (scrcpy‑server UHID) — that

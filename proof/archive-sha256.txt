@@ -1,0 +1,7 @@
+File    : OurNotes-Autoplay-20261003.zip
+Size    : 152945 bytes (149.36 KB)
+Files   : 40 (27 python modules + docs + statement + per-file hash list)
+SHA-256 : 80109e206e2d2562bbea5443ea6307c114765c76d3dce334114827b85215b6af
+Created : 2026-10-03 03:28 (UTC+8)
+Sealed  : 2026-10-03 03:30 (UTC+8)  Bitcoin (OpenTimestamps) + RFC 3161 (FreeTSA)
+Status  : archive itself is NOT published (source stays private)
