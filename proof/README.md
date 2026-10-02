@@ -2,6 +2,11 @@
 
 **English** · [中文](#中文)
 
+> **Status: complete.** The hash is now committed into **Bitcoin block 969627**
+> (block time 2026-10-02 19:37:33 UTC = 2026-10-03 03:37:33 Beijing; submitted 03:30,
+> mined 7 minutes later). Verified independently against the block header with
+> `ots_verify_independent.py`.
+
 This folder is a **public time commitment**. The implementation itself is *not*
 published — but the hash of the sealed source archive is, together with independent
 third-party timestamps that prove the archive already existed on **2026-10-03**.
@@ -60,6 +65,10 @@ openssl ts -verify -in OurNotes-Autoplay-20261003.zip.tsr \
 ---
 
 ## 中文
+
+> **状态：已完成。** 该哈希已写入 **比特币区块 969627**
+> （区块时间 2026‑10‑02 19:37:33 UTC = 北京时间 2026‑10‑03 03:37:33；
+> 03:30 提交，7 分钟后被打包）。已用区块头独立验证通过：`ots_verify_independent.py`。
 
 这个目录是一份**公开的时间承诺**：**代码本体不公开**，公开的是封存包的哈希，以及能证明
 "这个哈希在 **2026‑10‑03** 就已经存在"的第三方时间戳。
