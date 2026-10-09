@@ -26,6 +26,21 @@ Everything after your first tap is driven by the game's own chart data: taps, ho
 
 ---
 
+## Source code & download
+
+| What | Where |
+| --- | --- |
+| **Full source code** | [YKLovePython/ournotes-autoplay](https://github.com/YKLovePython/ournotes-autoplay) |
+| **Ready-to-run Windows build** (no Python needed, 98 MB) | [Releases](https://github.com/YKLovePython/ournotes-autoplay/releases) |
+| **Timestamp proof** (Bitcoin + RFC 3161) | [`proof/`](proof/README.md) |
+
+The implementation is public. The timestamped sealed archive
+(`OurNotes-Autoplay-20261003.zip`, hash `80109e20…5b6af`) is attached to the code
+repository's releases, so anyone can check the published archive against the Bitcoin
+block — the whole chain is verifiable end to end.
+
+---
+
 ## What is different about it
 
 As of **2026‑09‑30** we could not find a public autoplay for this game. The closest
@@ -170,8 +185,8 @@ Read [docs/how-it-works.md](docs/how-it-works.md) for the longer version.
   > Q群：933148159
 
 * **Timestamp proof** (Bitcoin + RFC 3161 + commit history): see [`proof/`](proof/README.md).
-  The source itself stays private; the sealed archive's hash is publicly timestamped, so
-  priority can be checked by anyone without publishing the code.
+  The sealed archive behind it is published in the code repository's releases, so the
+  whole claim can be checked end to end.
 
 ## Credits
 
@@ -187,9 +202,10 @@ Read [docs/how-it-works.md](docs/how-it-works.md) for the longer version.
 This project is published for **research and learning** — Android input injection,
 HID, and rhythm‑game timing. It is not affiliated with the game's publisher.
 
-Automating a live‑service game may violate its terms of service and **can get an account
+Automating a live-service game may violate its terms of service and **can get an account
 suspended**. Use it on an account you are willing to lose, never for ranking, never
-commercially. The source code is intentionally **not** part of this repository.
+commercially. The full source code lives in the
+[code repository](https://github.com/YKLovePython/ournotes-autoplay).
 
 See [docs/disclaimer.md](docs/disclaimer.md).
 

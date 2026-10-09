@@ -1,7 +1,8 @@
 # 常见问题
 
-**问：为什么源码不公开？**
-源码放在私有仓库里，是有意为之。这个仓库公开的是**结果和思路**，不发布实现。
+**问：源码在哪里？**
+已经全部公开：**[YKLovePython/ournotes-autoplay](https://github.com/YKLovePython/ournotes-autoplay)**
+（Release 里有免环境的 Windows 版）。本仓库是介绍与存证页，实现代码在那边。
 
 **问：我的手机能用吗？**
 开发和实测都在小米 2510DRK44C（Android 16，未 root）。原则上只要这台设备

@@ -26,6 +26,20 @@
 
 ---
 
+## 源码与下载
+
+| 内容 | 在哪里 |
+| --- | --- |
+| **完整源码** | [YKLovePython/ournotes-autoplay](https://github.com/YKLovePython/ournotes-autoplay) |
+| **免环境免安装的 Windows 版**（不用装 Python，98 MB） | [Releases](https://github.com/YKLovePython/ournotes-autoplay/releases) |
+| **时间戳存证**（比特币 + RFC 3161） | [`proof/`](proof/README.md) |
+
+实现已经全部公开。被封存并加了时间戳的那个包
+（`OurNotes-Autoplay-20261003.zip`，哈希 `80109e20…5b6af`）也放在代码仓库的 Release 里，
+任何人都能把它和比特币区块对一遍——**整条证据链可以端到端验证**。
+
+---
+
 ## 它不一样在哪
 
 截至 **2026‑09‑30**，这个游戏我们没有找到任何公开的自动演奏成品；能找到的相近项目
@@ -150,7 +164,7 @@
   > Q群：933148159
 
 * **时间戳存证**（比特币 + RFC 3161 + 提交历史）：见 [`proof/`](proof/README.md)。
-  代码本体不公开，公开的是封存包的哈希与第三方时间戳——任何人不用看到代码就能核对先后。
+  封存包本体也已随代码仓库的 Release 公开，整条证据链可以端到端核对。
 
 ## 致谢
 
@@ -167,7 +181,7 @@
 
 自动化游玩在线游戏可能违反其服务条款，**并且可能导致账号被封禁**。
 请只在你愿意承担损失的账号上使用，不要用于冲榜，不要商用。
-源码**不在**本仓库里。
+完整源码在[代码仓库](https://github.com/YKLovePython/ournotes-autoplay)里。
 
 见 [docs/disclaimer.zh-CN.md](docs/disclaimer.zh-CN.md)。
 

@@ -18,5 +18,5 @@ Under the following terms:
 Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 Human-readable summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-This repository does NOT contain the implementation. The implementation is not
-licensed for redistribution.
+The implementation lives in the linked source-code repository
+(https://github.com/YKLovePython/ournotes-autoplay) and carries its own licence.

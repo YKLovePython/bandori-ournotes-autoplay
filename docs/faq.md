@@ -1,8 +1,9 @@
 # FAQ
 
-**Q: Why is the source code not public?**
-It is kept in a private repository on purpose. This repository documents the result and
-the ideas; the implementation is not distributed.
+**Q: Where is the source code?**
+It is public: **[YKLovePython/ournotes-autoplay](https://github.com/YKLovePython/ournotes-autoplay)**,
+with a ready-to-run Windows build in its Releases. This repository is the write-up and
+proof page; the implementation lives there.
 
 **Q: Does it work on my phone?**
 It was developed and measured on a Xiaomi 2510DRK44C (Android 16, unrooted). In principle

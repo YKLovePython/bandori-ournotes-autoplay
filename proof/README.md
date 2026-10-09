@@ -7,12 +7,14 @@
 > mined 7 minutes later). Verified independently against the block header with
 > `ots_verify_independent.py`.
 
-This folder is a **public time commitment**. The implementation itself is *not*
-published — but the hash of the sealed source archive is, together with independent
-third-party timestamps that prove the archive already existed on **2026-10-03**.
+This folder is a **public time commitment**. The hash of the sealed source archive is
+published here together with independent third-party timestamps proving the archive
+already existed on **2026-10-03**. The archive itself is now published too — it is
+attached to the [code repository's releases](https://github.com/YKLovePython/ournotes-autoplay/releases)
+— so the whole claim can be verified end to end.
 
-That is the standard way to claim priority without publishing the code: anyone can later
-be shown the archive, and it either matches this hash or it does not.
+Anyone can now download the archive, hash it, and check it against the Bitcoin block
+below — no trust in the author or in GitHub is needed.
 
 ```
 Archive : OurNotes-Autoplay-20261003.zip   (149 KB, 40 files: source + docs, kept private)
@@ -58,9 +60,10 @@ openssl ts -verify -in OurNotes-Autoplay-20261003.zip.tsr \
 
 `Verification: OK` means the token is genuine and was issued over exactly this archive.
 
-> The archive itself is kept private. To substantiate the claim, the author can release it
-> at any time; if its SHA-256 matches the value recorded here, the timestamps above apply
-> to it — no trust in the author or in GitHub is required, only in Bitcoin and in the TSA.
+> The archive is available from the
+> [code repository's releases](https://github.com/YKLovePython/ournotes-autoplay/releases).
+> If its SHA-256 matches the value recorded here, the timestamps above apply to it —
+> no trust in the author or in GitHub is required, only in Bitcoin and in the TSA.
 
 ---
 
@@ -70,11 +73,13 @@ openssl ts -verify -in OurNotes-Autoplay-20261003.zip.tsr \
 > （区块时间 2026‑10‑02 19:37:33 UTC = 北京时间 2026‑10‑03 03:37:33；
 > 03:30 提交，7 分钟后被打包）。已用区块头独立验证通过：`ots_verify_independent.py`。
 
-这个目录是一份**公开的时间承诺**：**代码本体不公开**，公开的是封存包的哈希，以及能证明
-"这个哈希在 **2026‑10‑03** 就已经存在"的第三方时间戳。
+这个目录是一份**公开的时间承诺**：封存包的哈希，加上能证明"这个哈希在 **2026‑10‑03**
+就已经存在"的第三方时间戳。封存包本体现在也公开了——挂在
+[代码仓库的 Release](https://github.com/YKLovePython/ournotes-autoplay/releases) 里，
+所以整条证据链可以端到端验证。
 
-这是"不公开代码也能主张先后"的标准做法：将来任何时候把封存包拿出来，对得上哈希就成立，
-对不上就说明不是这份。
+封存包下载下来算一次 SHA‑256，和下面这个值比对、再对一遍比特币区块即可——
+**不需要信任作者，也不需要信任 GitHub**。
 
 ```
 封存包 : OurNotes-Autoplay-20261003.zip   （149 KB，40 个文件：源码 + 文档，未公开）
@@ -118,6 +123,7 @@ openssl ts -verify -in OurNotes-Autoplay-20261003.zip.tsr \
 
 输出 `Verification: OK` 即通过。
 
-> 封存包由作者自己保管。需要主张时把它公开即可：只要它的 SHA‑256 与本目录记录的一致，
-> 上面这些时间戳就直接适用于它——**不需要信任作者本人，也不需要信任 GitHub**，
-> 只需要信任比特币和 TSA。
+> 封存包在
+> [代码仓库的 Release](https://github.com/YKLovePython/ournotes-autoplay/releases) 里。
+> 只要它的 SHA‑256 与本目录记录的一致，上面这些时间戳就直接适用于它——
+> **不需要信任作者本人，也不需要信任 GitHub**，只需要信任比特币和 TSA。
