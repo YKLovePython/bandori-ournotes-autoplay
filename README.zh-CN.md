@@ -7,6 +7,9 @@
 
 ![运行中](media/01_live_combo24.png)
 
+> **已验证平台：Windows 电脑 + 安卓手机。** 所有实测都在这个组合上完成（Windows 10/11 + Android 16）。
+> **macOS、Linux、iOS 设备不支持，也没有验证过。** 上一个版本（v1.0.0）同样只覆盖这个组合。
+
 ---
 
 ## 这是什么
@@ -31,12 +34,16 @@
 | 内容 | 在哪里 |
 | --- | --- |
 | **完整源码** | [YKLovePython/ournotes-autoplay](https://github.com/YKLovePython/ournotes-autoplay) |
-| **免环境免安装的 Windows 版**（不用装 Python，98 MB） | [Releases](https://github.com/YKLovePython/ournotes-autoplay/releases) |
+| **免环境免安装的 Windows 版**（不用装 Python，98 MB，**仅 Windows + 安卓**） | [Releases](https://github.com/YKLovePython/ournotes-autoplay/releases) |
 | **时间戳存证**（比特币 + RFC 3161） | [`proof/`](proof/README.md) |
 
 实现已经全部公开。被封存并加了时间戳的那个包
 （`OurNotes-Autoplay-20261003.zip`，哈希 `80109e20…5b6af`）也放在代码仓库的 Release 里，
 任何人都能把它和比特币区块对一遍——**整条证据链可以端到端验证**。
+
+遇到问题先跑**一键自检**（便携版里双击 `一键自检.bat`，或执行 `人手起手.exe --check`）：
+它会检查依赖库、数据文件、adb、手机连接和**触控注入通道**，并把报告写到
+`logs\自检_*.txt`——把这个文件发给作者是最快的定位方式。
 
 ---
 

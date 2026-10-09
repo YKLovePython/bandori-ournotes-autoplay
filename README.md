@@ -7,6 +7,11 @@
 
 ![Live in progress](media/01_live_combo24.png)
 
+> **Verified platform: Windows PC + Android phone.** Everything here was measured and
+> tested on that combination (Windows 10/11, Android 16). macOS, Linux and iOS devices
+> are **not supported** and have not been tested. The previous release (v1.0.0) covered
+> the same combination only.
+
 ---
 
 ## What this is
@@ -31,13 +36,18 @@ Everything after your first tap is driven by the game's own chart data: taps, ho
 | What | Where |
 | --- | --- |
 | **Full source code** | [YKLovePython/ournotes-autoplay](https://github.com/YKLovePython/ournotes-autoplay) |
-| **Ready-to-run Windows build** (no Python needed, 98 MB) | [Releases](https://github.com/YKLovePython/ournotes-autoplay/releases) |
+| **Ready-to-run Windows build** (no Python needed, 98 MB, Windows + Android only) | [Releases](https://github.com/YKLovePython/ournotes-autoplay/releases) |
 | **Timestamp proof** (Bitcoin + RFC 3161) | [`proof/`](proof/README.md) |
 
 The implementation is public. The timestamped sealed archive
 (`OurNotes-Autoplay-20261003.zip`, hash `80109e20…5b6af`) is attached to the code
 repository's releases, so anyone can check the published archive against the Bitcoin
 block — the whole chain is verifiable end to end.
+
+Stuck? The portable build ships a one-click environment check (`一键自检.bat`, or
+`人手起手.exe --check`): it verifies the libraries, data files, adb, the phone connection
+and the touch-injection channel, and writes a report to `logs\自检_*.txt` to send to the
+author. That is the fastest way to get a bug fixed.
 
 ---
 
